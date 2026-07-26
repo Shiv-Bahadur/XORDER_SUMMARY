@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("./assets/pattern-background-desktop.svg");
+    background-image: url("./pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
       background-color: #e0e8ff;
@@ -91,12 +91,12 @@ border: none;
 border-radius: 25px;
 font-weight: bold;
 box-shadow: 0 5px 5px gray ;
-transition: filter 0.3s ease;
+transition: background-color 0.3s ease;
 }
 
 .proceed-btn:hover{
   cursor: pointer;
-  filter: brightness(60%);
+  background-color: #766cf1;
 }
 
 .cancel-order{
@@ -120,9 +120,12 @@ footer{
 
 @media (max-width:450px) {
    body {
-        background-image: url("./assets/pattern-background-mobile.svg");
+        background-image: url("./pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+    background-size: contain;
+      background-color: #e0e8ff;
     }
-    
+
   .container{
     width: 90%;
     height: 90%;
