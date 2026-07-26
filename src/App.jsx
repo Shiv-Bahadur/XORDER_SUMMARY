@@ -14,21 +14,23 @@ function App() {
             <h1 className='heading'>Order Summary</h1>
 
             <p className='summary-para'>
-              You can now listen millions of songs, audiobooks and podcasts on any device anywhere you like!
+              You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
             </p>
 
-            <div className='plan-text'>
+            <div className='plan-wrapper'>
               <div className='icon-plan'>
                 <div className='song-icon-container'>
                   <img src={music_icon} alt='' />
                 </div>
-                <div>
+                <div className='plan-text'>
                   <h3>Annual Plan</h3>
                   <p>$59.99/year</p>
                 </div>
               </div>
 
-              <a href='#' className='change-link'>Change</a>
+              <div className="change-link">
+                <a href="#">Change</a>
+              </div>
             </div>
 
             <button className='proceed-btn'>Proceed to Payment</button>
